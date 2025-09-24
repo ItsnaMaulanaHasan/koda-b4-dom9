@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Conversion Temperature</title>
+    <link rel="stylesheet" href="./assets/css/style.css" />
+  </head>
+  <body>
+    <main>
+      <section id="container">
+        <h1>Conversion Temperature</h1>
+        <form action="" method="get" id="formConversion">
+          <div class="inputWrapper">
+            <label for="inputTemperature">Temperature (°C)</label>
+            <input type="number" name="temperature" id="inputTemperature" />
+            <button type="submit">Conversion</button>
+          </div>
+        </form>
+        <div class="results">
+          <div>
+            Celcius (°C):
+            <span></span>
+          </div>
+          <div>
+            Fahrenheit (°F):
+            <span></span>
+          </div>
+          <div>
+            Reamur (°R):
+            <span></span>
+          </div>
+          <div>
+            Kelvin (°K):
+            <span></span>
+          </div>
+        </div>
+        <h3>Conversion Histories</h3>
+        <div class="history">
+          <table id="tableHistory">
+            <thead>
+              <tr>
+                <th>Celcius</th>
+                <th>Fahrenheit</th>
+                <th>Reamur</th>
+                <th>Kelvin</th>
+              </tr>
+            </thead>
+            <tbody></tbody>
+          </table>
+          <div>History masih kosong</div>
+        </div>
+      </section>
+    </main>
+    <script src="./assets/js/script.js"></script>
+  </body>
+</html>
